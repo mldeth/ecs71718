@@ -5,7 +5,11 @@
     <style>
     body {background-color:lightblue;}
      p{border-style:double;}
-     ul{border-style:double;}
+     li{border-style:double;}
+     h1{border-style:double;}
+     body{background-color:lightblue;
+			transition: background-color 4s;}
+			ul{padding:10px 700px;
      </style>
 </head>
 
@@ -21,14 +25,28 @@
    <b>"Minty" was born a slave in Maryland.</b> <br/> 
    
    Eventually, Minty escaped with her brothers, and then helped many other people escape from slavery. </p>
-   <h3>Achievements</h3>
+   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Harriet_Tubman_by_Squyer%2C_NPG%2C_c1885.jpg/220px-Harriet_Tubman_by_Squyer%2C_NPG%2C_c1885.jpg"></img>
+<br/> <a href="https://en.wikipedia.org/wiki/Harriet_Tubman">Link about Harriet</a>
+ <h3>Achievements</h3>
     <ul>
       <li>She has her own award, the Harriet Tubman award</li> <br/>
       <li>she successfully freed over 300 slaves</li> <br/>
       <li>she traveled across the country in these trips 19 times without ever getting caught</li>
+      <li></li>
     </ul>
-   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Harriet_Tubman_by_Squyer%2C_NPG%2C_c1885.jpg/220px-Harriet_Tubman_by_Squyer%2C_NPG%2C_c1885.jpg"></img>
-<br/> <a href="https://en.wikipedia.org/wiki/Harriet_Tubman">Link about Harriet</a>
+<script type="text/javascript">
+		var colors = ["lightblue", "blue", "darkblue", "indigo", "violet"];
+
+		var i = 1;
+
+		window.setInterval(function(){
+			document.body.style.backgroundColor = colors[i];
+			i++;
+			if (i === colors.length){
+				i=0;
+			}
+		}, 5000);
+	</script>
     </center>
 </body>
 </html>
