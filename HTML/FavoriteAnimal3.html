@@ -93,7 +93,48 @@
   animation: bounce 0.5s ease-in-out 0 infinite alternate;
   float: right;
 }
+body {
+  background-color: #e7e7e7;
+  padding: 5rem 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 
+// Bootstrap Documentation Example
+.carousel {
+  .carousel-inner {
+    .carousel-item {
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
+.carousel {
+  .carousel-inner {
+    .carousel-item {
+      }.carousel-img {
+        width: 70%;
+        height: 400px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: red;
+      }
+      .carousel-img-1 {
+        background-image: url('http://lorempixel.com/800/400/food/');
+      }
+      .carousel-img-2 {
+        background-image: url('http://lorempixel.com/800/400/food/');
+      }
+      .carousel-img-3 {
+        background-image: url('http://lorempixel.com/800/400/food/');
+      }
+    }
+  }
+ }
 @keyframes bounce {
   from { margin-top: 20px; }
   to { margin-top: 23px; }
@@ -151,18 +192,44 @@ li {
        <button type="submit">Quilava</button>
       </form>
         <img src="https://cdn.bulbagarden.net/upload/thumb/b/b6/156Quilava.png/250px-156Quilava.png"></img>
-        <div class="row">
-    <div> <a target="_blank_" href="https://cdn.bulbagarden.net/upload/thumb/6/68/Dawn_Quilava.png/255px-Dawn_Quilava.png" style="background-color:lavender;"> <img src="https://cdn.bulbagarden.net/upload/thumb/6/68/Dawn_Quilava.png/255px-Dawn_Quilava.png" ></img>
-       </a>This is a image of Quilava from the TV show.</div>
-     <div id="section3">
-    <div> <a target="_blank_" href="https://vignette.wikia.nocookie.net/pokemontowerdefensetwo/images/3/35/156_large.png/revision/latest?cb=20140413081002"><img src="https://vignette.wikia.nocookie.net/pokemontowerdefensetwo/images/3/35/156_large.png/revision/latest?cb=201404130810024"></img>
-    </a>This is a picture of Quilava from the card game.</div>
-    <div> <a target="_blank_" href="http://piq.codeus.net/static/media/userpics/piq_255742_400x400.png"> <img class="irc_mi" src="http://piq.codeus.net/static/media/userpics/piq_255742_400x400.png" alt="Related image" onload="typeof google==='object'&amp;&amp;google.aft&amp;&amp;google.aft(this)" style="margin-top: 0px;" height="200" width="200"></img>
-    </a>This is a picture of Quilava from the Video game</div>
+        <div class="container">
+  <div class="row">
+    <div class="col">
+      <div class="card">
+        <div class="card-block">
+          <div id="carouselDocumentationIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselDocumentationIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselDocumentationIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselDocumentationIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+              <div class="carousel-item active">
+                <img class="d-block img-fluid" src="https://cdn.bulbagarden.net/upload/thumb/6/68/Dawn_Quilava.png/255px-Dawn_Quilava.png" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block img-fluid" src="https://vignette.wikia.nocookie.net/pokemontowerdefensetwo/images/3/35/156_large.png/revision/latest?cb=20140413081002" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block img-fluid" src="http://piq.codeus.net/static/media/userpics/piq_255742_400x400.png" alt="Third slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselDocumentationIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselDocumentationIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+  <center>
      <div> <a target="_blank_" href="https://cdn.weasyl.com/static/media/67/e7/29/67e729d372e479992157ed5daf631b41176157ebb20fe14280a7894014f21890.png"> <img class="irc_mi" src="https://cdn.weasyl.com/static/media/67/e7/29/67e729d372e479992157ed5daf631b41176157ebb20fe14280a7894014f21890.png" alt="Related image" onload="typeof google==='object'&amp;&amp;google.aft&amp;&amp;google.aft(this)" style="margin-top: 0px;" height="200" width="200"></img>
     </a>This is an adorable Fan-made picture of quilava</div>
   </div>
-  
+  </center>
      </center>
 </body>
 </html>
