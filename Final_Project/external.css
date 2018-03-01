@@ -1,0 +1,137 @@
+body {
+    background-image:url("https://cdn.shopify.com/s/files/1/0199/9492/products/MacNCheese_Hoodie_1024x1024.jpg?v=1504127064");
+    text-align: center;
+    
+}
+div{color:black;}
+.nav{
+
+    height: 40px;
+    width:auto;
+
+}
+
+.nav ul li{
+    list-style:none;
+    text-decoration:none;
+    display: inline-block;
+    padding: 10px;
+    padding-right:20px;
+    float: right;
+    }
+.nav ul li a { 
+    text-decoration: none;
+    color:#FFF;
+    font-family:calibri;
+    }
+.nav ul li a:hover {
+    color: #6be0d6;}
+.nav ul li a:active{
+    color: #6be0d6;
+    }
+li {
+    display: inline;
+    font-family: Comic Sans MS, cursive, sans-serif 
+}
+nav ul{
+  list-style: none;
+  margin: 0 2px;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+nav {
+text-align: center;
+margin: 20px 0 0 ;
+padding: 10px 0;
+}
+
+nav ul{
+  list-style: none;
+  margin: 0 2px;
+  padding: 0;
+}
+
+nav li {
+   display: inline-block;
+   padding: 5px 5px;
+}
+
+nav a {
+  font-weight: normal;
+  padding: 10px 5px;
+  font-size: .80em;
+}
+ul li {
+    padding: 70px;}
+    h1{
+        font-family: Comic Sans MS, cursive, sans-serif 
+    }
+    body 
+    {
+      background-color:#454545;
+      color:black;
+      font-family:comic, cursive, sans-serif;
+      text-align:center;
+    }
+      a:link
+    {
+      color:black;
+    }
+      a:visited
+    {
+      color:black;
+    }
+      a:hover
+    {
+      color:black;
+    }
+      a:active
+    {
+      color:black;
+    }
+.nav
+    {
+      border:1px solid #ccc;
+      border-width:1px 0;
+      list-style:none;
+      margin:0;
+      padding:0;
+      text-align:center;
+    }
+    .nav li{
+    display:inline;
+    }
+.nav a
+    {
+    display:inline-block;
+    padding:10px;
+    }
+h1
+    {
+      font-size:40;
+    }
+h2
+    {
+      font-size:27.5;
+      text-decoration:underline;
+    }
+h3
+    {
+      font-size:20;
+    }
+p
+    {
+      font-size:12;
+    }
+
+.blur {-webkit-filter: blur(4px);filter: blur(4px);}
+.brightness {-webkit-filter: brightness(250%);filter: brightness(250%);}
+.contrast {-webkit-filter: contrast(10000%);filter: contrast(10000%);}
+.grayscale {-webkit-filter: grayscale(100%);filter: grayscale(100%);}
+.huerotate {-webkit-filter: hue-rotate(180deg);filter: hue-rotate(180deg);}
+.invert {-webkit-filter: invert(200%);filter: invert(100%);}
+.opacity {-webkit-filter: opacity(50%);filter: opacity(50%);}
+.saturate {-webkit-filter: saturate(99); filter: saturate(9999);}
+.sepia {-webkit-filter: sepia(100%);filter: sepia(100%);}
+.shadow {-webkit-filter: drop-shadow(8px 8px 10px green);filter: drop-shadow(8px 8px 10px green);}
