@@ -40,6 +40,11 @@ h2{
     display: inline;
     font-family: Comic Sans MS, cursive, sans-serif 
 }
+h3{
+    display: inline;
+    font-family: Comic Sans MS, cursive, sans-serif;
+    color:gray;
+}
 div{height:300px;}
 img{height:300px;
   padding-left:250px;
